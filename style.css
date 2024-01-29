@@ -1,0 +1,105 @@
+body {
+    background-color: #f2e6ff;
+    font-family: Arial, sans-serif;
+}
+
+h1, h3 {
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tytul, .menu, .strona, .forma {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link, .menu, .strona, .forma {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.forma input[type="text"],
+.forma input[type="number"],
+.forma input[type="date"],
+.forma input[type="email"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.przycisk {
+    background-color: #ff85a2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.przycisk:hover {
+    background-color: #ff6584;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 5px; 
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 15px;
+    background-color: #e7e7e7;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.menu li:nth-child(odd) a {
+    background-color: #e7e7e7; 
+}
+
+.menu li:nth-child(even) a {
+    background-color: #d4d4d4; 
+}
+
+.menu li a:hover {
+    background-color: #c1c1c1;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+}
