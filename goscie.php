@@ -16,10 +16,10 @@
         </div>
         <div class="strona">
         <?php
-    $servername="127.0.0.1";
-    $username="root";
-    $password="";
-    $dbname="hotel";
+    $servername="mysql-bazadanychjs.alwaysdata.net";
+    $username="345528";
+    $password="Nintendo123!";
+    $dbname="bazadanychjs_hotel";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
     if($conn->connect_error) {
